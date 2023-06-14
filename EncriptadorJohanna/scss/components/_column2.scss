@@ -1,0 +1,37 @@
+@use "../variables" as v;
+
+.column2{
+
+    border-radius: 30px;
+    margin: 35px;
+    background: v.$white;
+    grid-area: column2;
+
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    padding-top: 90px;
+
+}
+
+.parrafo2{
+   margin-top: 15px;
+   text-align: center;
+}
+
+.textareaDescriptado{
+    margin-top: 25px;
+    margin-left: 55px;
+    border: none;
+    outline: none;
+    
+}
+
+#botonCopiar{
+    margin-left: 55px;
+    padding-right:95px;
+    padding-left:95px;
+    border-radius: 5px;
+
+    background-image: linear-gradient(to left top, #24567c, #007293, #008e99, #00a88e, #5abe77);
+    
+    display: none;
+}

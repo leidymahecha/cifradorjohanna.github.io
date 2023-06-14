@@ -1,0 +1,10 @@
+
+@use "../variables" as v;
+
+.logo{
+    margin-top: 30px;
+    margin-left: 45px;
+    background: v.$color-fondo;
+    grid-area: logo;
+    
+}

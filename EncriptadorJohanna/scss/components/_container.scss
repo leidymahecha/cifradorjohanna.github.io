@@ -1,0 +1,18 @@
+@use "../variables" as v;
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background: v.$color-fondo;
+
+    grid-template-rows:  80px auto 45px;
+    grid-template-columns: 1fr 0.3fr;
+    grid-template-areas:
+
+    "logo column2"
+    "column1 column2"
+    "column1 column2"
+    ;
+}
